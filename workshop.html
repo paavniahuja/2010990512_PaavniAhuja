@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Workshop Registration Form</title>
+    <meta charset="utf-8">
+    <!-- Connecting pages to css -->
+    <link rel="stylesheet" href="css/workshop.css">
+    <!-- Used to make the page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Creating the main container of login page with heading login and SignUp -->
+    <div class="wrapper">
+        <div class="title-text">
+            <!-- <div class="title login">
+                Workshop Form</div> -->
+            <div class="title signup">
+                Workshop Form</div>
+        </div>
+        <div class="form-container">
+            <!-- Creating the slide bar which shifts between login and SignUp page -->
+            <!-- <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Signup</label>
+                <div class="slider-tab">
+                </div>
+            </div> -->
+            <div class="form-inner">
+                <!-- Creating the form for the login part -->
+                <form action="/successfull.html" class="login">
+                    <div class="field">
+                        <h3>Hi, What is your Name?</h3>
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field">
+                        <h3>Where shoud I Email you?</h3>
+                        <input type="email" placeholder="Email Address "required>
+                    </div>
+                    <div class="field">
+                        <h3>What is your Phone Number?</h3>
+                        <input type="number" placeholder="Phone Number" maxlength=10 required>
+                    </div>
+                    <div class="field">
+                        <h3>Are you looking for...</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" value="an engaging, impactful speaker that your audience will love?">
+                                <label>an engaging, impactful speaker that your audience will love?</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="an emcee to help make my event an experience to remember">
+                                <label>an emcee to help make my event an experience to remember?</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="an actionable, powerful workshop to help your team achieve big results?">
+                                <label>an actionable, powerful workshop to help your team achieve big results?</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="private coaching to become a captivating and persuasive communicator">
+                                <label>private coaching to become a captivating and persuasive communicator?</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="a fun guest for your TV/radio show, podcast, or media interview">
+                                <label>a fun guest for your TV/radio show or media interview?</label>
+                            </li>
+                        </ul>
+                        <div class="field">
+                            <h3>Tell me more about yourself! </h3>
+                            <textarea style="margin:0px -5px 0px 0px;width:20rem;height:100px;">
+
+                            </textarea>
+                            <div class="field btn">
+                                <div class="btn-layer">
+                                </div>
+                                <input type="submit" value="Submit">
+                            </div>
+                           
+
+                    </div>
+
+                    <!-- <div class="pass-link">
+                        <a href="#">Forgot password?</a>
+                    </div> -->
+                    <!-- Creating button for the login part -->
+                        </form>
+                        </div>
+                        </div>
+                    <!-- <div class="signup-link">
+                        Not a member? <a href="">Signup now</a></div> -->
+                <!-- Creating the form for the SignUp part  -->
+                <!-- <form action="#" class="signup">
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" maxlength="8" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" maxlength="8" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Signup">
+                    </div>
+                </form> -->
+            </div>
+        </div>
+    </div>
+    <!-- Connecting the page with javascript -->
+    <script src="javascript/explore.js"></script>
+
+</body>
+
+</html>

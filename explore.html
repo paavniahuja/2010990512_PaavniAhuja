@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Registration page</title>
+    <meta charset="utf-8">
+    <!-- Connecting pages to css -->
+    <link rel="stylesheet" href="css/explore.css">
+    <!-- Used to make the page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="successfull.js"></script>
+</head>
+
+<body>
+    <!-- Creating the main container of login page with heading login and SignUp -->
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">
+               Registration Form</div>
+            <div class="title signup">
+                Signup Form</div>
+        </div>
+        <div class="form-container">
+            <!-- Creating the slide bar which shifts between login and SignUp page -->
+            <!-- <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Signup</label>
+                <div class="slider-tab">
+                </div>
+            </div> -->
+            <div class="form-inner">
+                <!-- Creating the form for the login part -->
+                <form action="/successfull.html" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Phone Number" maxlength="10"  required>
+                    </div>
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <!-- <div class="pass-link">
+                        <a href="#">Forgot password?</a>
+                    </div> -->
+                    <!-- Creating button for the login part -->
+                    <div class="field btn">
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Submit" >
+                     <!-- <a href="fa4project/successfull.html"><input type="submit" value="Submit"></a> -->
+                    </div>
+                    <!-- <div class="signup-link">
+                        Not a member? <a href="">Signup now</a></div>
+                </form> -->
+                <!-- Creating the form for the SignUp part  -->
+                <form action="#" class="signup">
+                    <!-- <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" maxlength="8" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" maxlength="8" required>
+                    </div> -->
+                    <!-- Creating the button for the SignUp Part  -->
+                    <!-- <div class="field btn">
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Signup">
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Connecting the page with javascript -->
+    <script src="javascript/explore.js"></script>
+
+</body>
+
+</html>
